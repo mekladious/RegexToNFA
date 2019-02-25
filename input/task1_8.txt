@@ -1,0 +1,3 @@
+static struct rv7xx_power_info *rv770_get_pi(struct amdgpu_device *adev);
+static struct evergreen_power_info *evergreen_get_pi(struct amdgpu_device *adev);
+static struct  si_ps *si_get_ps(struct amdgpu_ps *rps);
